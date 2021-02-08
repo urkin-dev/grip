@@ -44,7 +44,6 @@ export default function ServicesSection() {
 				</div>
 			</div>
 			<img src={home2} alt="" />
-			<button>Click</button>
 		</div>
 	)
 }
