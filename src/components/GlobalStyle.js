@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #1b1b1b;
+        font-family: 'Intel', sans-serif;
     }
 
     button {
@@ -20,6 +21,7 @@ const GlobalStyle = createGlobalStyle`
         background: transparent;
         color: #fff;
         transition: all .5s ease;
+        font-family: 'Intel', sans-serif;
 
         &:hover {
             background-color: #23d997;
@@ -29,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
 
     h2 {
         font-weight: lighter;
-        color: #fff;
+        font-size: 4rem;
     }
 
     h3 {
@@ -38,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
 
     h4 {
         font-weight: bold;
+        font-size: 2rem;
     }
 
     p {
