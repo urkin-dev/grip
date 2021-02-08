@@ -79,7 +79,7 @@ const Card = styled.div`
 	h3 {
 		margin-left: 1rem;
 		background: #fff;
-		color: #000;
+		color: #7563D0;
 		padding: 1rem;
 	}
 `

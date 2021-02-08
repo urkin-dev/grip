@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+
     * {
         margin: 0;
         padding: 0;
@@ -8,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: #1b1b1b;
+        background: radial-gradient(#e9c42f, #ab881c);
         font-family: 'Intel', sans-serif;
     }
 
@@ -17,14 +18,14 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.1rem;
         cursor: pointer;
         padding: 1rem 2rem;
-        border: 3px solid #23d997;
+        border: 3px solid #7563D0;
         background: transparent;
         color: #fff;
         transition: all .5s ease;
         font-family: 'Intel', sans-serif;
 
         &:hover {
-            background-color: #23d997;
+            background-color: #7563D0;
             color: #fff;
         }
     }
@@ -45,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
 
     p {
         padding: 3rem 0rem;
-        color: #ccc;
+        color: #dbdbdb;
         font-size: 1.4rem;
         line-height: 150%;
     }
@@ -56,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
 
     span {
         font-weight: bold;
-        color: #23d997
+        color: #7563D0
     }
 `
 export default GlobalStyle
