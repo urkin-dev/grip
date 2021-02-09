@@ -1,5 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 
+export const colors = {
+	basicPurple: '#7563D0',
+}
+
 const GlobalStyle = createGlobalStyle`
 
     * {
@@ -18,14 +22,14 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.1rem;
         cursor: pointer;
         padding: 1rem 2rem;
-        border: 3px solid #7563D0;
+        border: 3px solid ${colors.basicPurple};
         background: transparent;
         color: #fff;
         transition: all .5s ease;
         font-family: 'Intel', sans-serif;
 
         &:hover {
-            background-color: #7563D0;
+            background-color: ${colors.basicPurple};
             color: #fff;
         }
     }
@@ -57,7 +61,7 @@ const GlobalStyle = createGlobalStyle`
 
     span {
         font-weight: bold;
-        color: #7563D0
+        color: ${colors.basicPurple}
     }
 `
 export default GlobalStyle

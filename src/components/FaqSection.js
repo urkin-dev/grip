@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from './GlobalStyle'
 
 //Import styles
 import { Section } from '../style'
@@ -59,7 +60,7 @@ export default function FaqSection() {
 
 const Faq = styled(Section)`
 	display: block;
-	
+
 	span {
 		display: block;
 	}
@@ -70,8 +71,8 @@ const Faq = styled(Section)`
 	}
 
 	.faq-line {
-		background-color: #ccc;
-		height: .2rem;
+		background-color: ${colors.basicPurple};
+		height: 0.2rem;
 		margin: 2rem 0rem;
 		width: 100%;
 	}
