@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: radial-gradient(#e9c42f, #ab881c);
+        background: radial-gradient(#e9c42f, #ab881c) no-repeat;
         font-family: 'Intel', sans-serif;
     }
 

@@ -1,22 +1,23 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
 	return (
 		<StyledNav>
 			<h1>
-				<a href="#" className="logo">
+				<Link to="/" className="logo">
 					Grip
-				</a>
+				</Link>
 			</h1>
 			<ul>
 				<li>
-					<a href="#">About Us</a>
+					<Link to="/">About Us</Link>
 				</li>
 				<li>
-					<a href="#">Our Work</a>
+					<Link to="/work">Our Work</Link>
 				</li>
 				<li>
-					<a href="#">Contact Us</a>
+					<Link to="/contact">Contact Us</Link>
 				</li>
 			</ul>
 		</StyledNav>
@@ -30,8 +31,8 @@ const StyledNav = styled.nav`
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 10rem;
-	background-color: #E9C42F;
-	box-shadow: 0px 0px 10px 0px #3d3d3d;
+	background-color: #e9c42f;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 
 	a {
 		color: #fff;
