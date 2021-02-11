@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html{
+    @media (max-width: 1700px){
+        font-size: 75%;
+    
+
     body {
         overflow-x: hidden;
         background: radial-gradient(#e9c42f, #ab881c) no-repeat;
