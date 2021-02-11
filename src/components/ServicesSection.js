@@ -1,4 +1,8 @@
 import styled from 'styled-components'
+import { UseScroll } from './UseScroll'
+
+//Import animation
+import { scrollReveal } from '../animation'
 
 //Import images
 import clock from '../img/clock.svg'
@@ -11,8 +15,15 @@ import home2 from '../img/home2.png'
 import { Section, Description, Image } from '../style'
 
 export default function ServicesSection() {
+	const [element, controls] = UseScroll()
+
 	return (
-		<Services>
+		<Services
+			ref={element}
+			variants={scrollReveal}
+			initial="hidden"
+			animate={controls}
+		>
 			<Description>
 				<h2>
 					High <span>quality</span> services
@@ -79,7 +90,7 @@ const Card = styled.div`
 	h3 {
 		margin-left: 1rem;
 		background: #fff;
-		color: #7563D0;
+		color: #7563d0;
 		padding: 1rem;
 	}
 `

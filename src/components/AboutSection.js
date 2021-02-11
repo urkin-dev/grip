@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { titleAnimation, fadeAnimation, photoAnimation } from '../animation'
+import Wave from './Wave'
 
 //Import styles
 import { Section, Description, Image, Hide } from '../style'
@@ -36,6 +37,7 @@ export default function AboutSection() {
 					alt="Guy with a camera"
 				/>
 			</Image>
+			<Wave />
 		</Section>
 	)
 }

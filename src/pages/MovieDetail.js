@@ -7,6 +7,7 @@ import { colors } from '../components/GlobalStyle'
 //Animation
 import { motion } from 'framer-motion'
 import { pageAnimation } from '../animation'
+import ScrollTop from '../components/ScrollTop'
 
 export default function MovieDetail() {
 	const history = useHistory()
@@ -47,6 +48,7 @@ export default function MovieDetail() {
 					</ImageDisplay>
 				</Details>
 			)}
+			<ScrollTop />
 		</motion.div>
 	)
 }

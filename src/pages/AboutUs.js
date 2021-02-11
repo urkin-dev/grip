@@ -4,6 +4,7 @@ import ServicesSection from '../components/ServicesSection'
 //Import animations
 import { motion } from 'framer-motion'
 import { pageAnimation } from '../animation'
+import ScrollTop from '../components/ScrollTop'
 
 export default function AboutUs() {
 	return (
@@ -16,6 +17,7 @@ export default function AboutUs() {
 			<AboutSection />
 			<ServicesSection />
 			<FaqSection />
+			<ScrollTop />
 		</motion.div>
 	)
 }

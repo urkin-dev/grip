@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        overflow-x: hidden;
         background: radial-gradient(#e9c42f, #ab881c) no-repeat;
         font-family: 'Intel', sans-serif;
     }

@@ -33,6 +33,9 @@ const StyledNav = styled.nav`
 	padding: 1rem 10rem;
 	background-color: #c5a834;
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 0;
+	z-index: 9999;
 
 	a {
 		color: #fff;
